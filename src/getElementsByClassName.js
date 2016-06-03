@@ -6,7 +6,6 @@
 
 // But instead we're going to implement it from scratch:
 var getElementsByClassName = function (className) {
-    // need array of all class names
     var results = [];
     var body = document.body;
     
@@ -39,7 +38,6 @@ var getElementsByClassName = function (className) {
         
     }
     walkDom(body);
-    console.log(results);
     //termination case
     return results;
 
